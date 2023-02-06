@@ -25,6 +25,7 @@ console.log(num6);
 console.log(bul);
 console.log(bul1);
 
+
 let firstName = 'Andriy'
 let middleName = 'Mukolayovuch'
 let lastName = 'Kiselov'

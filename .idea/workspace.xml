@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson1/homework_les1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.js" afterDir="false" />
+    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson1">
+      <change afterPath="$PROJECT_DIR$/lessons/lesson2/homework_les2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson2/homework_les2/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -42,9 +45,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Omen\IdeaProjects\dec-2022-JS\lessons\lesson1\homework_les1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/lessons/lesson2/homework_les2">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,11 +70,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675257262288</updated>
-      <workItem from="1675257264777" duration="5081000" />
+      <workItem from="1675257264777" duration="6584000" />
+      <workItem from="1675604978403" duration="17659000" />
     </task>
+    <task id="LOCAL-00001" summary="add dec-2022-js/lesson1">
+      <created>1675262956785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675262956785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dec-2022-js/lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson1" />
   </component>
 </project>
