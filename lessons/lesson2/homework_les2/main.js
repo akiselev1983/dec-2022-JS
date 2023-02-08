@@ -38,25 +38,25 @@ let book3 = {
     title: 'HTML',
     pageCount: 150,
     genre: 'education',
-    autors: [autor = {name: 'Tolya', age: 35}, autor2 = {name: 'Anna', age: 46}]
+    autors: [{name: 'Tolya', age: 35}, {name: 'Anna', age: 46}]
 };
 let book4 = {
     title: 'PYTHON',
     pageCount: 550,
     genre: 'education',
-    autors: [autor = {name: 'Olya', age: 25}, autor2 = {name: 'Petya', age: 36}]
+    autors: [{name: 'Olya', age: 25}, {name: 'Petya', age: 36}]
 };
 let book5 = {
     title: 'JAWA',
     pageCount: 450,
     genre: 'education',
-    autors: [autor = {name: 'Olya', age: 25}, autor2 = {name: 'Petya', age: 36}]
+    autors: [{name: 'Olya', age: 25}, {name: 'Petya', age: 36}]
 };
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password.
 // Вивести в консоль пароль кожного користувача
 let users = [user1 = {name: 'Tolya', username: 'tolya85', password: 'ghgfhdgdbgh'},
-    user2 = {name: 'Tolya', username: 'tolya85', password: 'vfdgr'},
+    user2 = {name: 'Tolya', username: 'tolya85', password: '555vfdgr'},
     user3 = {name: 'Olya', username: 'olya_34', password: 'bgg6bbn'},
     user4 = {name: 'Igor', username: 'igorh5', password: 'gghg564'},
     user5 = {name: 'Tolya', username: 'tolya85', password: 'cggbg342'},
@@ -142,6 +142,8 @@ switch (asd) {
     case 7:
         console.log('Sunday');
         break;
+    default:
+        console.log('???')
 }
 //     - Користувач вводить або має два числа.
 //         Потрібно знайти та вивести максимальне число з тих двох .

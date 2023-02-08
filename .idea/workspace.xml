@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson1">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson2/homework_les2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson2/homework_les2/main.js" afterDir="false" />
+    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson2/homework2">
+      <change afterPath="$PROJECT_DIR$/lessons/lesson3/homework_les3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson3/homework_les3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson1/homework_les1/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/lesson2/homework_les2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson2/homework_les2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Omen\IdeaProjects\dec-2022-JS\lessons\lesson1\homework_les1" />
@@ -71,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675257262288</updated>
       <workItem from="1675257264777" duration="6584000" />
-      <workItem from="1675604978403" duration="17659000" />
+      <workItem from="1675604978403" duration="22422000" />
+      <workItem from="1675842303835" duration="11665000" />
     </task>
     <task id="LOCAL-00001" summary="add dec-2022-js/lesson1">
       <created>1675262956785</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675262956785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add dec-2022-js/lesson2/homework2">
+      <created>1675694249100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675694249100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add dec-2022-js/lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson1" />
+    <MESSAGE value="add dec-2022-js/lesson2/homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson2/homework2" />
   </component>
 </project>
