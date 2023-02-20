@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson4/homework4">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson5/homework_les5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson5/homework_les5/main.js" afterDir="false" />
+    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson5/homework5">
+      <change afterPath="$PROJECT_DIR$/lessons/lesson6/homework_les6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson6/homework_les6/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,8 @@
       <workItem from="1675604978403" duration="22422000" />
       <workItem from="1675842303835" duration="15829000" />
       <workItem from="1676221297419" duration="33847000" />
-      <workItem from="1676457644900" duration="11803000" />
+      <workItem from="1676457644900" duration="17239000" />
+      <workItem from="1676640479631" duration="34719000" />
     </task>
     <task id="LOCAL-00001" summary="add dec-2022-js/lesson1">
       <created>1675262956785</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676315819146</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add dec-2022-js/lesson5/homework5">
+      <created>1676475181850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676475181850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +122,7 @@
     <MESSAGE value="add dec-2022-js/lesson2/homework2" />
     <MESSAGE value="add dec-2022-js/lesson3/homework3" />
     <MESSAGE value="add dec-2022-js/lesson4/homework4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson4/homework4" />
+    <MESSAGE value="add dec-2022-js/lesson5/homework5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson5/homework5" />
   </component>
 </project>
