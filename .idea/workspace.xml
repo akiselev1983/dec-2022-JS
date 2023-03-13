@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson8/homework8">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson9/homework_les9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson9/homework_les9/main.js" afterDir="false" />
+    <list default="true" id="05a20f2f-e9c9-4a06-9b19-dd5443f188e1" name="Changes" comment="add dec-2022-js/lesson9/homework9">
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index3-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/homework_les10/index5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,7 +81,7 @@
       <workItem from="1676640479631" duration="35974000" />
       <workItem from="1676914818444" duration="3351000" />
       <workItem from="1676970240254" duration="591000" />
-      <workItem from="1677246633317" duration="53648000" />
+      <workItem from="1677246633317" duration="122879000" />
     </task>
     <task id="LOCAL-00001" summary="add dec-2022-js/lesson1">
       <created>1675262956785</created>
@@ -128,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677487874080</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add dec-2022-js/lesson9/homework9">
+      <created>1677926299251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677926299258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +153,7 @@
     <MESSAGE value="add dec-2022-js/lesson5/homework5" />
     <MESSAGE value="add dec-2022-js/lesson6/homework6" />
     <MESSAGE value="add dec-2022-js/lesson8/homework8" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson8/homework8" />
+    <MESSAGE value="add dec-2022-js/lesson9/homework9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dec-2022-js/lesson9/homework9" />
   </component>
 </project>

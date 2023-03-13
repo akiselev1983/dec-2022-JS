@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<!--<form name="f1">-->
+  <button>send1</button>
+<!--</form>-->
+<h1>Number: </h1>
+
+<script>
+  // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде
+  // додавати до неї +1
+  //=====================================================
+  //  ----Зробив за допомогою кнопки-----
+  let a = 2;
+  let number = document.createElement('h2');
+  number.innerText = a;
+  document.body.appendChild(number);
+  let btn = document.getElementsByTagName('button')[0];
+  btn.onclick = function (e) {
+    e.preventDefault();
+    number.innerText = a++;
+  };
+// ======================================================
+//  -----Зробив за допомогою LocalStorage --------------
+  const numb = document.createElement('h2');
+  document.body.appendChild(numb);
+  let number1 = JSON.parse(localStorage.getItem('card')) || 0;
+  const newnumb = number1 + 1;
+  numb.innerText = newnumb;
+  localStorage.setItem('card', newnumb);
+</script>
+
+</body>
+</html>

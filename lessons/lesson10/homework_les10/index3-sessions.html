@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .border {
+            border: 3px solid blue;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+<script>
+    const date = JSON.parse(localStorage.getItem('session'))
+    for (const item of date) {
+        const block = document.createElement('div')
+        block.classList.add('border')
+        const blockTime = document.createElement('h3');
+        const blockDate = document.createElement('h2');
+        blockTime.innerText = `TIME: ${item.hour}:${item.minute}:${item.second}`;
+        blockDate.innerText = `DATE: ${item.day} / ${item.month} / ${item.year}`
+        block.append(blockDate, blockTime);
+
+
+        document.body.appendChild(block);
+    };
+
+</script>
+</body>
+</html>
