@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: silver;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .border-div {
+            border: red 3px solid;
+            border-radius: 10px;
+            background: azure;
+            width: 40%;
+            margin: 30px;
+            /*text-align: center;*/
+        }
+        .btn {
+            width: 90%;
+            margin: 10px auto;
+            border: black 2px solid;
+            border-radius: 10px;
+        }
+        .post {
+            border: red 3px solid;
+            border-radius: 10px;
+            background: azure;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 18%;
+            margin: 10px;
+            text-align: center;
+        }
+        .title {
+            text-align: center;
+        }
+        .text {
+            font-weight: bolder;
+        }
+        .btn1 {
+            margin: 10px;
+            border: black 2px solid;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!--На странице user-details.html:-->
+<!--4 Вивести всю, без виключення, інформацію про об'єкт user на який клікнули-->
+<!--5 Додати кнопку "post of current user", при кліку на яку, з'являються title всіх постів поточного юзера-->
+<!--(для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)-->
+<!--6 Каждому посту додати кнопку/посилання, при кліку на яку відбувається перехід на сторінку post-details.html,-->
+<!--котра має детальну інфу про поточний пост.-->
+
+<!--Стилизація проєкта - -->
+<!--user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.-->
+<!--блоки з короткою іфною про post - в ряд по 5 .-->
+<!--Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)-->
+<script>
+    let url = new URL(location.href);
+    let json = url.searchParams.get('data');
+    let user = JSON.parse(json);
+
+    const div = document.createElement('div');
+    const title = document.createElement('h2');
+    title.innerText = 'Information of user!';
+    title.classList.add('title');
+    div.appendChild(title);
+    function objectUser(user) {
+        for (const item in user) {
+            if (typeof user[item] !== "object") {
+                const ulBlock = document.createElement('ul');
+                ulBlock.innerText = '';
+                const liBlock = document.createElement('li');
+                liBlock.innerText = `${item}: ${user[item]}`;
+                ulBlock.appendChild(liBlock);
+                div.appendChild(ulBlock);
+            }else {
+                const ulBlock1 = document.createElement('ul');
+                ulBlock1.innerText = `${item}:`
+                ulBlock1.classList.add('text');
+                div.appendChild(ulBlock1);
+                objectUser(user[item]);
+            };
+        };
+    };
+    objectUser(user);
+
+    const button = document.createElement('button');
+
+    button.innerText = 'post of current user';
+
+    div.classList.add('border-div');
+    button.classList.add('btn');
+
+    document.body.append(div,button);
+
+    button.onclick = function () {
+        fetch('https://jsonplaceholder.typicode.com/users/' + JSON.stringify(user.id) + '/posts')
+            .then(value => value.json())
+            .then(posts => {
+                console.log(posts)
+                for (const post of posts) {
+                    let divPosts = document.createElement('div');
+                    let userId = document.createElement('h4');
+                    let title = document.createElement('div');
+                    let button1 = document.createElement('button');
+                    button1.innerText = 'GET POST'
+                    userId.innerText = `Id: ${post.userId}`;
+                    title.innerText = `Title: ${post.title}`;
+
+                    divPosts.classList.add('post')
+                    title.classList.add('text')
+                    button1.classList.add('btn1')
+                    divPosts.append(userId, title, button1);
+
+                    document.body.appendChild(divPosts);
+                    button1.onclick = function () {
+                        document.location = 'post-details.html?data=' + JSON.stringify(post);
+                    };
+                };
+            });
+    }
+
+
+
+</script>
+</body>
+</html>
